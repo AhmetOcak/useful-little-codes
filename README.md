@@ -20,5 +20,16 @@ Time -> 11:19:58
     return DateTime.now().toString().substring(11, 19);
   }
 ```
+<br/>
+<br/>
 
-
+PM - AM
+```dart
+  String checkPmOrAm(int hour) {
+    if (hour >= 12) {
+      return 'PM';
+    } else {
+      return 'AM';
+    }
+  }
+```

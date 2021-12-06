@@ -33,3 +33,14 @@ PM - AM
     }
   }
 ```
+<br/>
+<br/>
+
+Time Stamp -> readTimestamp(1638766677) => 07:57
+```dart
+  String readTimestamp(int timestamp) {
+    var date = DateTime.fromMillisecondsSinceEpoch(timestamp * 1000);
+
+    return date.toString().substring(11, 16);
+  }
+```

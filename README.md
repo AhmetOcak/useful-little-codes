@@ -44,3 +44,10 @@ Time Stamp -> readTimestamp(1638766677) => 07:57
     return date.toString().substring(11, 16);
   }
 ```
+<br/>
+<br/>
+
+Kotlin -> overlapping status bar problem fix
+```kotlin
+android:fitsSystemWindows="true"
+```

@@ -51,3 +51,11 @@ Kotlin -> overlapping status bar problem fix
 ```kotlin
 android:fitsSystemWindows="true"
 ```
+
+<br/>
+<br/>
+
+Kotlin -> keyboard problem fix
+```kotlin
+android:windowSoftInputMode="adjustResize"
+```

@@ -59,3 +59,11 @@ Kotlin -> keyboard problem fix
 ```kotlin
 android:windowSoftInputMode="adjustResize"
 ```
+
+<br/>
+<br/>
+
+Kotlin -> TextInputLayout border color
+```Kotlin
+<color name="mtrl_textinput_default_box_stroke_color">Your Color</color>
+```
